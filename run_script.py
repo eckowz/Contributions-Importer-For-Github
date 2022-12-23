@@ -14,7 +14,7 @@ for repo_path in repos_path:
 # Your mock repo
 mock_repo = git.Repo("path/to/your/mock-repo")
 importer = Importer(repos, mock_repo)
-importer.ignore_file_types(['.csv', '.txt', '.pdf', '.xsl', '.sql'])
+importer.set_ignored_file_types(['.csv', '.txt', '.pdf', '.xsl', '.sql'])
 #importer.set_ignore_before_date(1640995200) # 01/01/2022 not need cuz set_start_from_last(true)
 importer.set_start_from_last(True)
 # I use both my personal email and work email here,
