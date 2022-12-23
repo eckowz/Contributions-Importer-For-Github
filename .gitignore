@@ -1,4 +1,6 @@
 # To avoid push of a private file
+# If you want to use same file name: git update-index --assume-unchanged run_script.py
+# To to back: git update-index --no-assume-unchanged run_script.py
 run_script.py
 
 # Byte-compiled / optimized / DLL files
